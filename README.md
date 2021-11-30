@@ -15,6 +15,7 @@
 7. Connect and disconnect with the mentioned (in _injected_) etherium networks. Take the `active`, `activate`, `deactivate` functions from `useWeb3React` hook
    - Render appropriate component according to if it is connected or not
 8. Call and integrate solidity functions in the activate component
+9. Fix UI
 
 ## Some Important Tool Links
 
@@ -26,3 +27,11 @@
    - chrome extension to keep track of
 4. [Etherium Unit Convertor](https://eth-converter.com/)
    - to convert between different units of etherium
+5. [Rinkeby Faucet](https://faucets.chain.link/rinkeby)
+   - to add dummy fake etherium coins in Rinkeby network
+
+## How to set up
+
+- npm install
+- Add [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) to your chrome extensions
+- Make sure you have some currency in your account. If not get from [Rinkeby Faucet](https://faucets.chain.link/rinkeby)

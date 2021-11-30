@@ -7,5 +7,26 @@
 
 body {
 	font-family: "Montserrat", sans-serif;
-	text-align: center;
+	background-color: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.header {
+	color: #eee;
+	font-weight: 500;
+	font-size: 3rem;
+	margin: 2rem 0;
+}
+
+.cta_btn {
+	padding: 15px 25px;
+	margin: 2rem 0;
+	font-size: 1rem;
+}
+.cta_btn:hover {
+	background-color: #ddd;
+	cursor: pointer;
 }

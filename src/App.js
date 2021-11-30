@@ -24,10 +24,22 @@ function App() {
 
 	return (
 		<>
-			<button onClick={connect}>CONNECT!!</button>
-			{active ? <Activate /> : <Deactivate />}
-			<button onClick={disconnect}>DISCONNECT!!</button>
-			<div className="App">APP</div>
+			<h1 className="header">TIC TAC TOE</h1>
+			{active ? (
+				<>
+					<Activate />
+					<button onClick={disconnect} className="cta_btn">
+						DISCONNECT
+					</button>
+				</>
+			) : (
+				<>
+					<Deactivate />
+					<button onClick={connect} className="cta_btn">
+						CONNECT
+					</button>
+				</>
+			)}
 		</>
 	)
 }

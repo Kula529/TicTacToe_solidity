@@ -1,0 +1,9 @@
+.deactivatedContainer {
+	height: 20rem;
+	width: 20rem;
+	background-color: #444;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ddd;
+}

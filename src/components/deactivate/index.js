@@ -1,11 +1,8 @@
 import React from "react"
+import "./style.css"
 
 const Deactivate = () => {
-	return (
-		<div>
-			<span>deActivated</span>
-		</div>
-	)
+	return <div className="deactivatedContainer">DE-ACTIVATED</div>
 }
 
 export default Deactivate
